@@ -1,4 +1,5 @@
 // import our db, Model, DataTypes
+const Sequelize = require("sequelize");
 const { db, DataTypes } = require('../db/connection')
 
 // Creating a User child class from the Model parent class
